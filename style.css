@@ -1,0 +1,53 @@
+*{
+    border: 0px ;
+    margin : 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+}
+
+.navebar {
+    background-color: #102184;
+    padding: 1rem;
+    color: white;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-family: inherit;
+    font-variant: small-caps;
+}
+
+.borad {
+    max-width: 50%;
+    height: 75%;
+    margin: auto;
+}
+.cls-row {
+    display: flex;
+    height: 4.5%;
+}
+
+.cls-box {
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid;
+    background-color: #effcfd;
+    transition:.5s;
+    margin: 0.1%;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    margin: 1%;
+}
+.btn-reset{
+    display: none;
+    margin: auto;
+    max-width: 50%;
+    text-align: center;
+    
+}
